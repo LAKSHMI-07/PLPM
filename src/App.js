@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Sidebar from './components/Sidebar';
-import ProductListing from './components/ProductListing';
+import ProductListing from './components/ProductList';
 
 const data = {
   data: [
@@ -123,6 +123,16 @@ const data = {
       ],
       category_id: "670cc889986a7e251a6d0fe4",
       name: "Home Accents"
+    },
+    {
+      sections: [
+        {
+          product_types: [],
+          section_id: ""
+        }
+      ],
+      category_id: "670cc889986a7e251a6d0fe4",
+      name: "New added"
     }
   ]
 };
