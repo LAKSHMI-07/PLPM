@@ -1,0 +1,17 @@
+/* src/App.css */
+.App {
+  display: flex;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+
+.right-content {
+  width: 80%;
+  background-color: #ffffff;
+}
+
+

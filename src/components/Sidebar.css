@@ -1,0 +1,35 @@
+ /* src/components/Sidebar.css */
+
+.sidebar {
+    width: 15%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    max-height: 100vh; /* Ensure the sidebar does not exceed viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  
+  .category-name, .section-name {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  .category-list, .section-list, .product-type-list {
+    padding-left: 0; 
+  }
+  
+  .section-list {
+    padding-left: 20px; /* Indent for subsections */
+  }
+  
+  .product-type-list {
+    padding-left: 20px; /* Indent for product types */
+  }
+  
+  .product-type-name {
+    margin: 3px 0; /* Space between product types */
+  }
+  
+  
+  
